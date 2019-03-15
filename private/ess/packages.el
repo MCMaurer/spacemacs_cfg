@@ -181,8 +181,8 @@
       "Insert an assignment <-"
       (interactive)
       (insert "<- "))
-    (define-key ess-mode-map (kbd "C-\"") 'tide-insert-pipe)
-    (define-key ess-mode-map (kbd "C-'") 'tide-insert-assign)
+    (define-key ess-mode-map (kbd "H-."") 'tide-insert-pipe)
+    (define-key ess-mode-map (kbd "H-,") 'tide-insert-assign)
 
     (defun tide-draft-rmd ()
       "Draft a new Rmd file from a template interactively."
